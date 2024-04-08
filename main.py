@@ -13,4 +13,4 @@ while True:
         # Append list with the Morse Code extracted from dictionary using the character as key
         char_list.append(morse_code_dict[char])
     if should_print:
-        print(''.join(char_list))
+        print(' '.join(char_list))
